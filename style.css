@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90px;
+  
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 20px;
+  font-size: 1.2rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: rgb(235, 183, 183);
+  font-size: 1.22rem;
+}
+
+.left1 {
+  font-size: 1.8rem;
+}
+
+.firstSection {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.firstSection > div {
+  width: 30%;
+}
+
+.left2 {
+  font-size: 2.4rem;
+  margin: 30px 90px;
+}
+
+.right2 {
+  margin: 70px 200px;
+}
+
+.purple {
+  color: rgb(237, 168, 168);
+}
+
+#element {
+  color: rgb(228, 148, 203);
+}
+
+.secondSection {
+  max-width: 100%;
+  margin: 0px 40px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+.secondSection ul {
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+.colorS{
+  background-color:#f5efef;
+}
+.thirdSection{
+  margin: 0px 40px;
+  padding: 20px;
+}
+.hobbies{
+  margin: 1em 0em ;
+  font-size: 1.2rem;
+  display: flex;
+} 
+
+.hobbies i{
+  font-size: 2rem;
+  margin: 0 .5em;
+}
+
+.hobbies div{
+  margin: 1em 8em;
+}
+
+.fourthSection{
+  margin: 0px 40px;
+  padding: 20px;
+}
+
+.skills{
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  font-size: 1.4em;
+} 
+.skills i{
+  font-size: 2.7rem;
+
+}
+
+.skills div{
+  margin: .3em 1.7em;
+  text-align: center;
+}
+.skills i:hover{
+  color: rgb(228, 148, 203) ;
+}
+
+.fifthSection{
+  margin: 0px 40px;
+  padding: 20px;
+}
+
+.sixthSection{
+  margin: 0px 40px;
+  padding: 20px;
+}
+.address div{
+  margin: .5em 0;
+  font-size: 1.1em;
+}
+
+.address div i{
+  font-size: 1.5em;
+  padding: .3em 0;
+}
+.map_box{
+  padding: 1.2em;
+}
+
+
+.social{
+  margin: 0em 2em ;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.social div{
+  margin: 0.5em;
+}
+.social div a{
+  font-size:24px;
+  color: white;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 120px;
+}
+
+.footer-first {
+  text-align:center;
+  font-size: 1.1rem;
+  padding: 10px;
+}
+
+.footer-first a {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+table {
+  width: 100%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  
+  font-weight: bold;
+}
